@@ -1,0 +1,431 @@
+
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    background: #F0AB4E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.row{
+    margin: 0 ;
+    width: 100%; 
+}
+
+header {
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+header nav .links {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .links {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .links a {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition-duration: 800ms;
+}
+
+header nav .links a:hover {
+    background: azure;
+    color: #2f2e2e;
+    transform: scale(1.05);
+}
+
+header nav .burger {
+    display: none;
+}
+
+.Back-to-the-future-logo {
+    height: 40px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+.carousel{
+    width: 100%;
+    
+}
+
+
+
+
+.bg-dark {
+    background-color: #031825 !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+
+
+main .container a{
+    color: azure;
+    text-decoration: none
+}
+
+
+
+main .container a:hover {
+    background: azure;
+    color: #2f2e2e;
+    transform: scale(1.05);
+}
+
+
+main aside img{
+    width: 250px;
+}
+
+
+footer p{
+    color: #BBBBBB;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    
+}
+
+
+.col:hover{
+    transform: scale(1.1); 
+    transition: 0.3s;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+}
+  
+
+.banner img{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+    
+
+}
+footer .container{
+	max-width: 1000px;
+	margin:auto;
+}
+footer .container .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #031825;
+    padding: 20px ;
+    margin: 0;
+
+}
+.footer-col{
+   width: 33%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+h1{
+    font-family: "Righteous", sans-serif;
+}
+
+.card-body p{
+    color: black;
+}
+
+p{
+    line-height: 1.8;
+    font-family: "Rowdies", sans-serif;
+}
+
+
+
+
+.accordion-button{
+    background:   #F0AB4E;
+    
+    
+    
+}
+
+.accordion-item {
+    background:  #F0AB4E;
+    border:none;
+    
+}
+.accordion-item .accordion-header{
+    background:  #F0AB4E;
+    font-family: "Righteous", sans-serif;
+     
+}
+.accordion-body{
+    font-family: "Secular One", sans-serif;
+
+}
+
+form {
+    margin-top: 200px;
+}
+
+
+
+.light_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.591);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    box-sizing: border-box;
+}
+
+.light_box .inside_box {
+    background:#252526;
+    padding: 8px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    stroke: black !important;
+}
+.light_box .inside_box button{
+    background:#1161FE;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 28px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.light_box .inside_box button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.light_box .inside_box img {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+    
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    header nav .links {
+        width: 70%;
+    }
+ 
+}
+
+
+.topic-box {
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+
+  }
+  
+  .topic-title {
+    margin-top: 30px;
+    color: #ffffff;
+  }
+  
+  .topic-description {
+    margin-top: 20px;
+    color: white;
+  }
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    header nav {
+        max-width: 100% !important;
+        
+    }
+
+    header nav .links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        background: #2f2e2e;
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        top: 60px;
+        text-align: center;
+        z-index: 999;
+
+    }
+
+    header nav .links a {
+        border-top: 1px solid azure;
+        border-radius: 0;
+        padding: 15px 0;
+        
+        
+    }
+
+    header nav .burger {
+        display: block;
+        color: azure;
+        font-size: 30px;
+        
+        
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    
+
+
+    h1 {
+        color: black;
+        font-weight: bold;
+        font-family: Georgia;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    .Back-to-the-future-logo {
+        height: 40px;
+        width: 90px;
+        padding-bottom: 10px;
+        
+    }
+
+    .container .row .card{
+        width: 100%;
+        
+    }
+
+
+  
+
+  
+  
+    }
+
